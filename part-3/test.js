@@ -17,3 +17,8 @@ penampungHasilOperatorAritmatika = angka1 / angka2;
 console.log(penampungHasilOperatorAritmatika);
 penampungHasilOperatorAritmatika = angka1 % angka2;
 console.log(penampungHasilOperatorAritmatika);
+
+let firstName = 'Hamjaya';
+let lastName = 'Saputra';
+let fullName = firstName + ' ' + lastName;
+console.log(fullName);
