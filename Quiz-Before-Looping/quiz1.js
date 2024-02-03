@@ -116,7 +116,7 @@ let fourthWordLength = exampleFourthWord4.length;
 
 console.log('Fourth Word: ' + exampleFourthWord + ', with length: ' + fourthWordLength);
 
-//Fourth Word
+//Fifth Word
 let exampleFifthWord4 = word4.substring(21, 25);
 
 let fifthWordLength = exampleFifthWord4.length;
