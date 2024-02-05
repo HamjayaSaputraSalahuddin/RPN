@@ -21,3 +21,18 @@ function balikKata(kata) {
 }
 
 console.log(balikKata("agus"));
+
+function hurufKapital(kata) {
+    let result = "";
+    for (let i = 0; i < kata.length; i++) {
+        if ((i === 0 || kata[i - 1] === ' ')) {
+            result += kata[i].toUpperCase();
+        } else {
+            result += kata[i];
+        }
+    }
+    return result;
+}
+
+console.log(hurufKapital("hamjaya saputra salahuddin"));
+console.log(hurufKapital("haeruddin"));
