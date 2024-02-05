@@ -27,7 +27,7 @@ function calculateMultiply(num1, num2) {
     
 } 
 let hasilPerkalian = calculateMultiply(num1,num2);
-console.log(hasilPerkalian);
+console.log("Hasil kalinya adalah : " + hasilPerkalian);
 
 
 
