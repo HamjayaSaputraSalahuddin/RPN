@@ -14,9 +14,10 @@ console.log(penjumlahan(2,12));
 
 function balikKata(kata) {
     let result = "";
-    for(i = kata.length - 1; i >= 0; i--) {
-        result =+ kata[i];
+    for(let i = kata.length - 1; i >= 0; i--) {
+        result += kata[i];
     }
+    return result;
 }
 
-console.log(balikKata('agus'));
+console.log(balikKata("agus"));
