@@ -46,3 +46,11 @@ console.log(arr2[0][0]);
 console.log(arr2[1]);
 console.log(arr2[1].length);
 console.log(arr2[1][1]);
+
+console.log("========================");
+
+for (let i = 0; i < arr2.length; i++) {
+    for (let j = 0; j < arr2[i].length; j++) {
+        console.log(arr2[i][j]);
+    }
+}
