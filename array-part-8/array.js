@@ -34,3 +34,15 @@ let hewanSlice = ["kuda", "gajah", "singa", "jerapah", "tikus"];
 // console.log(hewanSlice.slice(1)); // method slice untuk memotong array tergantung parameter yang di berikan
 let slicedHewan = hewanSlice.slice(2,4)
 console.log(slicedHewan);
+
+//Array Dimension
+
+let arr1 = [1, 2, 3, 4, 5];
+let arr2 = [[1,2,3], [4,5,6]];
+
+console.log(arr2[0]);
+console.log(arr2[0].length);
+console.log(arr2[0][0]);
+console.log(arr2[1]);
+console.log(arr2[1].length);
+console.log(arr2[1][1]);
