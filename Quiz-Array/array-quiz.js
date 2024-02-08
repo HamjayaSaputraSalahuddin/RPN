@@ -55,3 +55,38 @@ Nama Lengkap:  Bintang Senjaya
 TTL:  Martapura 6/4/1970
 Hobi:  Berkebun
 */
+
+console.log('==============================================');
+
+console.log("Quiz No. 2");
+
+let input2 = ["0001", "Roman Alamsyah ", "Bandar Lampung", "21/05/1989", "Membaca"];
+
+function dataHandling2(input2) {
+    input2.splice(1,4, "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Interantional Metro");
+    console.log(input2);
+
+    let tanggal = input2[3].split("/");
+    if (tanggal[1] === "05") {
+        console.log("Mei");
+    }
+
+    tanggal.splice(0,3, "1980", "21", "05");
+    console.log(tanggal);
+
+    console.log(input2[3].split("/").join("-"));
+
+    console.log(input2[1].slice(0,14));
+}
+
+dataHandling2(input2);
+
+/**
+ * keluaran yang diharapkan (pada console)
+ *
+ * ["0001", "Roman Alamsyah Elsharawy", "Provinsi Bandar Lampung", "21/05/1989", "Pria", "SMA Internasional Metro"]
+ * Mei
+ * ["1989", "21", "05"]
+ * 21-05-1989
+ * Roman Alamsyah //batasi hanya 15 karakter saja pada array elemen ke 2
+ */
